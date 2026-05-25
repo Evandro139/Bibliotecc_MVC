@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using MVC_Biblioteca.Models;
 
-
-namespace MVC_Bibliotec.Controllers;
+namespace MVC_Biblioteca.Controllers;
 
 public class HomeController : Controller
 {
@@ -10,5 +10,5 @@ public class HomeController : Controller
     {
         return View();
     }
+
 }
-   
